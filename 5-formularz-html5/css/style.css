@@ -1,17 +1,42 @@
 form{
     background-color: #213b50;
-    width: 55%;
+    width: 40%;
     padding: 3vh;
     color: white;
+    
+}
+
+form label{
+    display: inline-block;
 }
 
 form > input,select,textarea{
-    padding-bottom: 1vh;
+    padding: 1vh;
+    margin: 1vh 0 1vh 0;
     background-color: #2b4a64;
     width: 50%;
     color: white;
     border: none;
 }
+form > input:focus{
+    border-color: white;
+    border: 1px white solid;
+    background-color: #4e708c;
+    outline: none;
+
+}
+form > select:focus{
+    border: 1px white solid;
+    background-color: #4e708c;
+    outline: none;
+}
+
+form > textarea:focus{
+    border: 1px white solid;
+    background-color: #4e708c;
+    outline: none;
+}
+
 
 form > input[type="radio"]{
     width: auto;
@@ -22,13 +47,17 @@ form > input[type="checkbox"]{
 }
 
 
+form > textarea{
+    height: 10vh;
+}
+
 
 input[type="submit"]{
-    background-color: green;
+    background-color: #4ebf4e;
     padding: 1.5vh;
     margin-top: 2vh;
     width: 12vh;
     color: white;
-    font-weight: bolder;
+    font-weight: 800;
     text-transform: uppercase;
 }
