@@ -1,0 +1,9 @@
+#pierwszy::before{
+    content: "Przed paragrafem";
+    color: red;
+}
+
+#drugi::after{
+    content: 'za paragrafem';
+    color: blue;
+}
