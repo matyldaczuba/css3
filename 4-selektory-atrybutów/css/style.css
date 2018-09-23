@@ -1,0 +1,12 @@
+[title]{
+    color: red;
+}
+
+[title="About me"]{
+    color: green;
+}
+
+[title*="tainer"]{
+    color: blueviolet;
+}
+
