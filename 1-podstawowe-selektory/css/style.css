@@ -1,0 +1,29 @@
+*{
+    color:darkgray;
+}
+
+p{
+    color: cadetblue;
+}
+
+#lel{
+    color: coral;
+}
+
+.klasa{
+    color: crimson;
+}
+
+ul a{
+    color: red;
+}
+
+
+li#pierwszy ~ li{
+    background-color: aqua;
+}
+
+
+li#pierwszy + li{
+    background-color: beige;
+}
