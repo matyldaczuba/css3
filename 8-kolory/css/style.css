@@ -1,0 +1,26 @@
+div{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+#predefined-colors{
+    background-color: aqua;
+}
+
+#hexadecimal-colors{
+    background-color: #6ec9c9;
+}
+
+#short-hexadecimal-colors{
+    background-color: #f4a;
+}
+
+#rgb-function{
+    background-color: rgb(125,30,54);
+}
+
+#rgba-function{
+    background-color: rgb(125,30,54,0.3);
+}
+
