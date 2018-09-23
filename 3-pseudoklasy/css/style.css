@@ -1,0 +1,19 @@
+#name:hover{
+    background-color: aqua;
+}
+
+#name:focus{
+    color: red;
+}
+
+.customer:first-child{
+    color:aqua
+}
+
+.customer:nth-child(3){
+    color: brown;
+}
+
+.customer:nth-child(2n+1){
+    background-color: gray;
+}
