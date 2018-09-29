@@ -1,0 +1,32 @@
+.animate{
+    height: 200px;
+    width: 300px;
+    background: navy;
+    /*
+    animation-name: resize;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;          ANIMACJA ZOSTANIE TAKA JAK NA 100% */
+    
+    animation: resize 6s steps(6,start) 2s forwards;
+}
+
+@keyframes resize{
+    0%{
+        width: 100%;
+        transform: translateX(0);
+
+    }
+    
+    50%{
+        width: 50%;
+        transform: translateX(200px);
+    }
+    100%{
+        width: 75%;
+        transform: translateX(-300px);
+
+    }
+    
+}
