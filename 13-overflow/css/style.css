@@ -1,0 +1,22 @@
+.box{
+    display: inline-block;
+    width: 20%;
+    height: 150px;
+    border: 1px solid blue;
+    font-size: 1.3rem;
+    vertical-align: top;
+}
+
+#box2{
+    overflow: hidden;
+}
+
+#box3{
+    overflow: scroll;
+}
+
+#box3{
+    overflow: auto;
+}
+
+
