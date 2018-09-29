@@ -1,0 +1,21 @@
+body{
+    background-color: red;
+}
+
+p{
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.bg{
+/*
+    background-color: rgba(147,255,67,1);
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+*/
+    background: rgba(147,255,67,1) url(../img/logo.png) no-repeat center center;
+    background-size: contain;
+    
+}
