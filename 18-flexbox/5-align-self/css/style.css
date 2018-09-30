@@ -1,0 +1,36 @@
+.flex-item{
+    border: 1px solid blue;
+    box-sizing: border-box;
+    padding: 10px;
+    background: cadetblue;
+    flex-basis: 20%;
+}
+
+.flex-item:nth-of-type(2n){
+    background: khaki;
+    height: 400px;
+}
+
+.flex-item:nth-of-type(1){
+    align-self: flex-end;
+}
+
+.flex-container{
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+@media (max-width: 960px){
+    .order1{
+        order:1;
+    }
+    
+    .order2{
+        order:2;
+    }
+    
+    .order3{
+        order:3;
+    }
+}
