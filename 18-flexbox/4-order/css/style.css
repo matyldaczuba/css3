@@ -12,7 +12,20 @@
 
 .flex-container{
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    align-items: stretch;
     
+}
+
+@media (max-width: 960px){
+    .order1{
+        order:1;
+    }
+    
+    .order2{
+        order:2;
+    }
+    
+    .order3{
+        order:3;
+    }
 }
