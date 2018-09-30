@@ -1,0 +1,70 @@
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a9e4f7+22,a9e4f7+22,a9e4f7+22,a9e4f7+22,a9e4f7+25,a9e4f7+25,a9e4f7+28,a9e4f7+28,a9e4f7+31,a9e4f7+31,a9e4f7+32,a9e4f7+32,a9e4f7+32,a9e4f7+32,a9e4f7+35,a9e4f7+35,a9e4f7+35,a9e4f7+35,a9e4f7+37,a9e4f7+38,a9e4f7+38,0fb4e7+64 */
+    background: #a9e4f7;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #a9e4f7 22%, #a9e4f7 22%, #a9e4f7 22%, #a9e4f7 22%, #a9e4f7 25%, #a9e4f7 25%, #a9e4f7 28%, #a9e4f7 28%, #a9e4f7 31%, #a9e4f7 31%, #a9e4f7 32%, #a9e4f7 32%, #a9e4f7 32%, #a9e4f7 32%, #a9e4f7 35%, #a9e4f7 35%, #a9e4f7 35%, #a9e4f7 35%, #a9e4f7 37%, #a9e4f7 38%, #a9e4f7 38%, #0fb4e7 64%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #a9e4f7 22%, #a9e4f7 22%, #a9e4f7 22%, #a9e4f7 22%, #a9e4f7 25%, #a9e4f7 25%, #a9e4f7 28%, #a9e4f7 28%, #a9e4f7 31%, #a9e4f7 31%, #a9e4f7 32%, #a9e4f7 32%, #a9e4f7 32%, #a9e4f7 32%, #a9e4f7 35%, #a9e4f7 35%, #a9e4f7 35%, #a9e4f7 35%, #a9e4f7 37%, #a9e4f7 38%, #a9e4f7 38%, #0fb4e7 64%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #a9e4f7 22%, #a9e4f7 22%, #a9e4f7 22%, #a9e4f7 22%, #a9e4f7 25%, #a9e4f7 25%, #a9e4f7 28%, #a9e4f7 28%, #a9e4f7 31%, #a9e4f7 31%, #a9e4f7 32%, #a9e4f7 32%, #a9e4f7 32%, #a9e4f7 32%, #a9e4f7 35%, #a9e4f7 35%, #a9e4f7 35%, #a9e4f7 35%, #a9e4f7 37%, #a9e4f7 38%, #a9e4f7 38%, #0fb4e7 64%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a9e4f7', endColorstr='#0fb4e7', GradientType=0);
+    /* IE6-9 */
+}
+
+.articles {
+    max-width: 670px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+.articles-el {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+
+.articles-el img {
+    max-width: 100%;
+}
+
+.articles-img {
+    flex-basis: 40%;
+    margin: 0;
+}
+
+.articles-text {
+    flex-basis: 50%;
+}
+
+
+/*
+.articles-reverse .articles-img{
+    order: 2;
+}
+
+.articles-reverse .articles-text{
+    order: 1;
+}*/
+
+.articles-reverse {
+   flex-direction: row-reverse;
+}
+
+@media (max-width: 670px){
+    .articles-el{
+        flex-direction: column;
+
+    }
+    .articles-img, .articles-text{
+        margin-bottom: 15px;
+        flex-basis: 100%;
+    }
+}
