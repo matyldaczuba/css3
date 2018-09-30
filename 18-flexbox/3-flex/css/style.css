@@ -1,0 +1,16 @@
+.flex-item{
+    border: 1px solid blue;
+    box-sizing: border-box;
+    padding: 10px;
+    background: cadetblue;
+    flex-basis: 20%;
+}
+
+.flex-item:nth-of-type(2n){
+    background: khaki;
+}
+
+.flex-container{
+    display: flex;
+    
+}
